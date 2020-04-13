@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TODO-LIST</title>
+</head>
+<body>
+    <button onclick="fetchTodos()">Fetch Todos</button>
+    <button onclick="logTodos()">Log Todos</button>
+    <button onclick="populateTodos()">Populate Todos</button>
+</br>
+</br>
+<input type="number" id="userId" name="idNum">
+<label for="userId" id="input">User ID (1-10)</label>
+<button class="btn" onclick="todosById()">Todos By ID</button><br>
+</br>
+<button class="btn" onclick="completedTodos()">Completed</button>
+<button class="btn" onclick="incompletedTodos()">Incompleted</button>
+</div>
+    <ol id="todo-list">
+    </ol>
+
+ <script src="script.js"></script>
+
+</body> 
+</html>
